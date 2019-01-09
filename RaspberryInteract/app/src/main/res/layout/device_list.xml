@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.techergu.raspberryInteract.ui.scan.DeviceList">
+
+    <ListView
+        android:id="@+id/lvItems"
+        android:layout_width="match_parent"
+        android:layout_height="481dp">
+    </ListView>
+
+    <Button
+        android:id="@+id/scanButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Scan"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lvItems"
+        app:layout_constraintVertical_bias="0.636" />
+
+    <TextView
+        android:id="@+id/coText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/colorAccent"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <Button
+        android:id="@+id/disButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Disconnect"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/ledButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        android:textColor="@color/colorWhite"
+        android:text="Toogle LED"
+        android:background="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- <EditText
+         android:id="@+id/editTextPin"
+         android:layout_width="0dp"
+         android:layout_height="40dp"
+         android:layout_marginBottom="16dp"
+         android:hint="PIN"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toStartOf="@+id/scan"
+         app:layout_constraintHorizontal_bias="0.0"
+         app:layout_constraintStart_toStartOf="parent" />
+
+     <EditText
+         android:id="@+id/editTextLed"
+         android:layout_width="0dp"
+         android:layout_height="37dp"
+         android:layout_marginBottom="15dp"
+         android:hint="LED"
+         app:layout_constraintBottom_toTopOf="@+id/editTextPin"
+         app:layout_constraintEnd_toStartOf="@+id/conf"
+         app:layout_constraintStart_toStartOf="parent" /> -->
+
+
+</android.support.constraint.ConstraintLayout>

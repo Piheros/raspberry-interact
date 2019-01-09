@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Raspberry interact</string>
+    <string name="action_settings">Pas plus de pomme</string>
+    <string name="ble_scan_error">BLE ERROR</string>
+</resources>
